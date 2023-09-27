@@ -1,3 +1,5 @@
+//Stickler Thief
+
 int solve(int arr[],int n,int ind,vector<int> &dp){
     if(ind>=n) return 0;
     if(dp[ind] != -1) return dp[ind];
